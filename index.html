@@ -85,14 +85,14 @@ title: Verne in GitHub
 			<div class="g-person" data-href="//plus.google.com/u/0/109340910651529827181" data-rel="author"></div>
 		</div>
 		<div class="categories">
-			<h2>文章分类</h2>
+			<h2>Article Categories</h2>
 			<ul class="tag_box">
 				{% assign categories_list = site.categories %}
 				{% include JB/categories_list %}
 			</ul>
 		</div>
 		<div>
-			<h2>最近文章</h2>
+			<h2>Recent Articles</h2>
 			<ul>
 			{% for post in site.posts limit:5 %}
 			<li>
