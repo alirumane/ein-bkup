@@ -23,7 +23,7 @@
 
         <div id="related">
             <h2>Related Posts</h2>
-            <ul class="posts"><!--当一篇文章有两个tag一样时显示-->
+            <ul class="posts"><!--When an article has two tag-like displays-->
                 {% for post in site.posts %}
                 {% assign sameTagCount = 0 %}
                 {% for tag in post.tags %}
@@ -40,7 +40,7 @@
 
         <div id="qr">
             <div id="qrcode"></div>
-            扫描二维码在移动设备查看
+            Scan QR Code on mobile device
         </div>
 
         <hr>
@@ -48,15 +48,15 @@
             <ul class="pager">
                 {% if page.previous %}
                 <li class="previous"><a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr;
-                    Previous（前一篇）</a></li>
+                    Previous（Previous article）</a></li>
                 {% else %}
-                <li class="previous disabled"><a>&larr; Previous（前一篇）</a></li>
+                <li class="previous disabled"><a>&larr; Previous（Previous article）</a></li>
                 {% endif %}
-                <li><a href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Archive（目录）</a></li>
+                <li><a href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Archive（Archive）</a></li>
                 {% if page.next %}
-                <li class="next"><a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">Next（后一篇） &rarr;</a></li>
+                <li class="next"><a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">Next（Next article） &rarr;</a></li>
                 {% else %}
-                <li class="next disabled"><a>Next（后一篇） &rarr;</a></li>
+                <li class="next disabled"><a>Next（Next article） &rarr;</a></li>
                 {% endif %}
             </ul>
         </nav>
