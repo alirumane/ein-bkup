@@ -143,7 +143,7 @@
 	<script async>
 		$(document).ready(function() {
 			$("p img").each(function(){
-				var strA = "<a data-fancybox="images" href='" + this.src + "'></a>";
+				var strA = "<a data-fancybox href='" + this.src + "'></a>";
 				$(this).wrapAll(strA);
 			});
 			$(".fancybox").fancybox({
