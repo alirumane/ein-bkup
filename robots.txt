@@ -1,0 +1,9 @@
+Sitemap: https://alirumane.github.io/sitemap.xml
+
+User-agent: *
+Disallow: /cgi-bin/
+Disallow: /scripts/
+Disallow: /tmp/
+
+User-agent: IRLbot
+Crawl-delay: 3600
