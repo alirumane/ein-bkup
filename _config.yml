@@ -146,3 +146,11 @@ gems:
 #- jekyll-mentions
   - jekyll-sitemap
   - jekyll-feed
+  
+  
+ compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  profile: true
+  startings: [head, body]
