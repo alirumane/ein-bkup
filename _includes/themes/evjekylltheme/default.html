@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html itemscope itemtype="http://schema.org/Blog">
   <head>
-    <meta charset="utf-8">
+	  <meta charset="utf-8">
+	  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
 		<title>{% if page.url == "/index.html" %} {{ site.title }} {% else %} {% if page.title %}{{ page.title }}{% endif %} | {{ site.title }} {% endif %}</title>
     {% if page.description %}<meta name="description" content="{{ page.description }}">
@@ -9,7 +12,6 @@
 		{% if post.excerpt %}<meta name="description" content="{{ post.excerpt | strip_html }}">{% endif %}
     <meta name="author" content="{{ site.author.name }}">
     <!-- Enable responsive viewport -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="theme-color" content="#2196F3">
 		<link rel="author" href="https://plus.google.com/+{{ site.author.google }}"/>
 
@@ -20,7 +22,6 @@
     <!--[if lt IE 9]>
       <!--<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>-->
     <![endif]-->
-	<script type="text/javascript" src="{{ ASSET_PATH }}/jquery.min.js"></script>
 
 	<link href="{{ ASSET_PATH }}/google-code-prettify/desert.css" type="text/css" rel="stylesheet" />
 	<!-- Add fancyBox -->
@@ -112,6 +113,9 @@
 
     {% include JB/analytics %}
 
+	   <!-- jQuery (necessary for most JavaScript plugins) to be included above all scripts-->
+	  <script type="text/javascript" src="{{ ASSET_PATH }}/jquery.min.js"></script>
+	  
 	<script type="text/javascript" src="{{ ASSET_PATH }}/google-code-prettify/prettify.js?skin=desert"></script>
 	<script async type="text/javascript">
 		$(function(){
