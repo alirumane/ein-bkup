@@ -14,9 +14,6 @@ description: Lighttpd is a webserver optimized for speed and reduced CPU-load. I
 It has a very low memory footprint compared to other web servers and takes care of CPU-load.
 Running a light webserver on Linux with Lighttpd and Raspberry Pi:
 
-* Do not remove this line (it will not be displayed)
-{:toc}
-
 ## A. General
 
 Overview and comparison of Memory Usage and Connection Requests.
