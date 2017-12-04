@@ -38,10 +38,9 @@ Also the requests per second for Lighttpd is suitable for  applications running 
 
 To install the lighttpd web server type the following commands in terminal
 
-
-{% highlight bash %}
+```bash
 sudo apt-get install lighttpd
-{% endhighlight %}
+```
 
 This will install the web server and other required dependencies.
 
