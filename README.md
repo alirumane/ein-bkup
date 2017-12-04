@@ -1,5 +1,5 @@
 Personal website using Jekyll-Bootstrap  
-http://einverne.github.io
+https://alirumane.github.io/
 
 写给我自己：
 
