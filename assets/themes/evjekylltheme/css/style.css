@@ -249,7 +249,7 @@ p img {
     color: #666;
 }
 
-pre code {
+code {
     color: #3071f8;
     background-color: #fff;
     *zoom: 1;
@@ -263,12 +263,12 @@ pre code {
     padding-right: 0;
     padding: 0 1.25rem;
 }
-pre code:before,
-pre code:after {
+code:before,
+code:after {
     content: '';
     display: table
 }
-pre code:after {
+code:after {
     clear: both
 }
 
