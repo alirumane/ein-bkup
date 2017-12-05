@@ -277,7 +277,7 @@ code {
     width: auto;
     max-width: 50rem;
     float: none;
-    display: block;
+    display: inline-block;
     margin-right: auto;
     margin-left: auto;
     padding-left: 0;
