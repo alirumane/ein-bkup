@@ -249,7 +249,7 @@ p img {
     color: #666;
 }
 
-code {
+pre code {
     color: #3071f8;
     background-color: #fff;
     *zoom: 1;
@@ -262,8 +262,6 @@ code {
     padding-left: 0;
     padding-right: 0;
     padding: 0 1.25rem;
-    font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace, Monaco, Lucida Console, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, sans-serif;
-    font-size: 1.2em;
 }
 
 /*
