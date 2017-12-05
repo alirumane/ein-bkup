@@ -272,25 +272,13 @@ p img {
 code {
     color: #3071f8;
     background-color: #fff;
-    font-size:1.1em;
-    *zoom: 1;
-    width: auto;
-    max-width: 50rem;
-    float: none;
-    display: inline-block;
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 0;
-    padding-right: 0;
-    padding: 0 1.25rem;
-}
-code:before,
-code:after {
-    content: '';
-    display: table
-}
-code:after {
-    clear: both
+    padding: 0;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    border-radius: 3px;
+    margin: 0;
+    font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace, Monaco, Lucida Console, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, sans-serif;
+font-size: 105%;
 }
 
 /*
