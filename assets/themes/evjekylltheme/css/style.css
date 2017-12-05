@@ -263,6 +263,14 @@ pre code {
     padding-right: 0;
     padding: 0 1.25rem;
 }
+pre code:before,
+pre code:after {
+    content: '';
+    display: table
+}
+pre code:after {
+    clear: both
+}
 
 /*
 .post-content a[href^="//"]:after,
