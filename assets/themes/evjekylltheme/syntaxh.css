@@ -24,6 +24,10 @@ line-height: 1.5rem;
         font-family: 'Monaco','Consolas','Menlo',monospace;
 }
 
+.highlight {
+    margin: 0;
+}
+
 .highlight pre { background-color: #272822; }
 .highlight .hll { background-color: #333; }
 .highlight .c { color: #75715e } /* Comment */
