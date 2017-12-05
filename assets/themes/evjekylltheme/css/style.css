@@ -272,6 +272,7 @@ p img {
 code {
     color: #3071f8;
     background-color: #fff;
+    font-size:1.1em;
     *zoom: 1;
     width: auto;
     max-width: 50rem;
