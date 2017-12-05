@@ -1,4 +1,15 @@
 pre {
+    overflow: auto
+}
+code,
+kbd,
+pre,
+samp {
+    font-family: monospace, monospace;
+    font-size: 1em
+}
+
+pre {
     background: #222;
     width: 100%;
     padding: 1.25rem 0;
