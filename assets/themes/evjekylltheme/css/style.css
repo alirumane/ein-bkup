@@ -256,7 +256,8 @@ code {
     padding-top: 0.2em;
     padding-bottom: 0.2em;
     border-radius: 3px;
-    margin: 0;
+    margin-right: auto;
+    margin-left: auto;
     font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace, Monaco, Lucida Console, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, sans-serif;
     font-size: 1em;
 }
