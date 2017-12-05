@@ -30,6 +30,7 @@ Requirements:
 
 ![Raspberry Pi Camera Enable]( {{site.url}}/images/raspi-camera-config.png "Raspberry Pi Camera Enable" )
 
+
   - Enable the `Camera` from `Interfaces` tab if Disabled and Reboot the Pi.
 
 
