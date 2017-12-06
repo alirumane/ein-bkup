@@ -89,7 +89,9 @@ sudo rm -rf ~/mjpg-streamer
 {% endhighlight %}
 
 You can change the above parameters
-{: .table }
+
+
+{: .table .table-striped}
 | Parameter 	|      Point      	|                Details               	|
 |:---------:	|:---------------:	|:------------------------------------:	|
 |     -i    	|      input      	|           input parameters           	|
