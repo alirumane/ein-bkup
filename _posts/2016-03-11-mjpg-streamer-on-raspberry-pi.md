@@ -92,6 +92,7 @@ You can change the above parameters
 
 
 {: .table .table-striped}
+
 | Parameter 	|      Point      	|                Details               	|
 |:---------:	|:---------------:	|:------------------------------------:	|
 |     -i    	|      input      	|           input parameters           	|
