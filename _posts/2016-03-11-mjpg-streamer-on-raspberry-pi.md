@@ -1,17 +1,30 @@
 ---
 layout: post
-title:
-twitter_text: Installing MJPG Streamer on Raspberry Pi
+title: Installing MJPG Streamer on Raspberry Pi
 tags: [Raspberry Pi, MJPG Streamer, Video]
-category: Raspberry Pi Tutorials
+category: [Raspberry Pi Tutorials]
 thumbnail: /thumbs/mjpg-streamer-on-raspberry-pi.png
-description: Streaming video output on webserver or media player through camera connected on Raspberry Pi can be used for many applications. You can stream video from Raspberry Pi Camera to Web Browsers, on Android, IOS and Windows!
+description: Streaming video output on the web server or media player through a camera connected on Raspberry Pi can be used for many applications. You can stream video from Raspberry Pi Camera to Web Browsers, on Android, IOS, and Windows!
 ---
-
-<p><span class="image left"><img src="{{ page.thumbnail }}" alt="" /></span> <i class="fa fa-quote-left fa-2x fa-pull-left fa-border"></i></p>
-
+<div class="row">
+<div class="intro">
+<div class="paragraphs">
+  <div class="row">
+    <div class="span4">
+      <div class="clearfix">
+			<img class="pull-left" src="{{ page.thumbnail }}" alt="{{page.title}}">
+			<i class="fa fa-quote-left fa-2x fa-pull-left fa-border"></i>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
 
 Motion JPG is a video compression format in which each video frame or video sequence is compressed separately as a JPEG image. MJPG-streamer takes JPGs from compatible cameras or other input plugins and streams them as M-JPEG via HTTP to web browsers and other media players.
+
+* Do not remove this line (it will not be displayed)
+{:toc}
 
 ## A. Essentials
 
@@ -24,12 +37,11 @@ Requirements:
 ## B. Connect the Camera Module
 
 
-![Raspberry Pi Camera Port]( {{site.url}}/images/raspb-camera-connection.png "Raspberry Pi Camera Port" )*Camera connection from both sides*
+![Raspberry Pi Camera Port](/images/raspb-camera-connection.png "Raspberry Pi Camera Port"){: .img-fluid }*Camera connection from both sides*
   - Locate the camera port and connect the camera as shown.
   - Open the `Raspberry Pi Configuration` Tool from `Preferences` on the main menu
 
-![Raspberry Pi Camera Enable]( {{site.url}}/images/raspi-camera-config.png "Raspberry Pi Camera Enable" )
-
+![Raspberry Pi Camera Enable](/images/raspi-camera-config.png "Raspberry Pi Camera Enable"){: .img-fluid }
 
   - Enable the `Camera` from `Interfaces` tab if Disabled and Reboot the Pi.
 
@@ -81,7 +93,7 @@ sudo rm -rf ~/mjpg-streamer
 ## E. Start Streaming
 
 
-  To Begin streaming type:
+To Begin streaming type:
 
 
 {% highlight bash %}
@@ -104,7 +116,6 @@ You can change the above parameters
 |     -p    	|    HTTP port    	|     TCP port for this HTTP server    	|
 |     -w    	| web page folder 	|     folder that contains webpages    	|
   
-
 You will see something like this
 
 {% highlight bash %}
@@ -140,11 +151,11 @@ Starting Camera
 
 Encoder Buffer Size 81920
 {% endhighlight %}
-  Now type the this url in your browser `http://localhost:9000/stream.html` to view the streamed output locally or type the IP address of Raspberry Pi with port like `http://<IP-address>:9000/stream.html` to watch from another computer/device in your network.
+  Now type this url in your browser `http://localhost:9000/stream.html` to view the streamed output locally or type the IP address of Raspberry Pi with the port like `http://<IP-address>:9000/stream.html` to watch from another computer/device in your network.
 
 #### Find IP address:
 
-To find IP address there are many ways, one of them is by by typing `ifconfig` in terminal
+To find IP address there are many ways, one of them is by typing `ifconfig` in terminal
 
 {% highlight bash %}
 sudo ifconfig
@@ -182,8 +193,8 @@ wlan0     Link encap:Ethernet  HWaddr 58:a2:c2:93:27:36
           RX bytes:115886055 (110.5 MiB)  TX bytes:83286188 (79.4 MiB)
 {% endhighlight %}
 
-In this case `192.168.1.49` is the IP-address
-You should enter address like `http://192.168.1.49:9000/stream.html` in your browser to view streaming.
+In this case, `192.168.1.49` is the IP-address
+You should enter the address like `http://192.168.1.49:9000/stream.html` in your browser to view streaming.
 
 ## F. Stop Streaming
 
